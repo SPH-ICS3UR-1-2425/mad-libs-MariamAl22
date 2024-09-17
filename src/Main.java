@@ -13,17 +13,19 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
 		System.out.println("What's your name?");
-		String name = in.nextLine();
-		System.out.println("Give me a number: ");
-		int num1 = in.nextInt(); 
 		System.out.println("Give me a plce: "); 
-		//flush 
-		in.nextLine();
-		String place = in.nextLine(); 
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
-
+		System.out.println("Give me a month of the year");
+		String monthOfyear = in.nextLine();
+		System.out.println("Give me a special holiday "); 
+		String person1 = in.nextLine(); 
+		System.out.println("Give me a name");
+		String person2 = in.nextLine();
+		System.out.println("Give me another name");
+		String person3 = in.nextLine();
+		System.out.println("During "+monthOfyear+", "+person2+" and "+person3+ " love speanding their quality time during their favorite holiday," +person1 ); 
+		
+		
 	}
 
 }
