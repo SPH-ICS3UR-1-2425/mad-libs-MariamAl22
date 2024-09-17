@@ -13,8 +13,6 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("What's your name?");
-		System.out.println("Give me a plce: "); 
 		System.out.println("Give me a month of the year");
 		String monthOfyear = in.nextLine();
 		System.out.println("Give me a special holiday "); 
