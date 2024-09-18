@@ -19,9 +19,23 @@ public class Main {
 		String person1 = in.nextLine(); 
 		System.out.println("Give me a name");
 		String person2 = in.nextLine();
+		System.out.println("Name me a warm drink");
+		String person4 = in.nextLine();
 		System.out.println("Give me another name");
 		String person3 = in.nextLine();
-		System.out.println("During "+monthOfyear+", "+person2+" and "+person3+ " love speanding their quality time during their favorite holiday," +person1 ); 
+		System.out.println("Give me a decimal number");
+		double num1 = in.nextDouble();
+		in.nextLine();
+		System.out.println("Give me a place"); 
+		String person5 = in.nextLine();
+		System.out.println("Name me an activity");
+		String act1 = in.nextLine();
+		System.out.println("Name me a movie");
+		String movie1 = in.nextLine(); 
+		System.out.println("Name me a comfy thing that keeps you warm");
+		String person6 = in.nextLine();
+		
+		System.out.println("During "+monthOfyear+", "+person2+" and "+person3+ " spend their evening at a resturant and waste more than "+num1+" dollars, then go back "+person5+" and play "+act1+". After that, they put on their favorite movie, "+movie1+", and drink "+person4+" while snuggled in their "+person6+". All that during their favorite holiday, "+person1 ); 
 		
 		
 	}
